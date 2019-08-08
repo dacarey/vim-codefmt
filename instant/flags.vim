@@ -94,7 +94,6 @@ call s:plugin.Flag('buildifier_executable', 'buildifier')
 " `java -jar /path/to/google-java`
 call s:plugin.Flag('google_java_executable', 'google-java-format')
 
-<<<<<<< HEAD
 ""
 " Command line arguments to feed shfmt. Either a list or callable that
 " takes no args and returns a list with command line arguments. By default, uses
@@ -116,7 +115,6 @@ call s:plugin.Flag('prettier_options', [
 ""
 " The path to the prettier executable.
 call s:plugin.Flag('prettier_executable', 'prettier')
-=======
+
 " The path to the xmllint executable xmllint --format -
 call s:plugin.Flag('xmllint_executable', 'xmllint')
->>>>>>> d891037... added XMLLint capability for XML

@@ -33,8 +33,5 @@ call s:registry.AddExtension(codefmt#autopep8#GetFormatter())
 call s:registry.AddExtension(codefmt#gn#GetFormatter())
 call s:registry.AddExtension(codefmt#buildifier#GetFormatter())
 call s:registry.AddExtension(codefmt#googlejava#GetFormatter())
-<<<<<<< HEAD
 call s:registry.AddExtension(codefmt#shfmt#GetFormatter())
-=======
 call s:registry.AddExtension(codefmt#xmllint#GetFormatter())
->>>>>>> d891037... added XMLLint capability for XML
